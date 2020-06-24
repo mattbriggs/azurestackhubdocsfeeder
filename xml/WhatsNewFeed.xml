@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:a10="http://www.w3.org/2005/Atom"
+  version="2.0">
+  <channel xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <title>Azure service updates</title>
+    <link>https://azure.microsoft.com/en-us/updates/</link>
+    <description>Azure service updates</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Mar 2020 17:46:43 Z</lastBuildDate>
+    <atom:link
+      href="https://azure.microsoft.com/updates/feed/"
+      rel="self"
+      type="application/rss+xml" />
+    <item>
+      <guid
+        isPermaLink="false">cognitive-services-introduces-new-neural-text-to-speech-voices-for-different-styles</guid>
+      <link>https://azure.microsoft.com/en-us/updates/cognitive-services-introduces-new-neural-text-to-speech-voices-for-different-styles/</link>
+      <title>SampleUpdate1</title>
+      <description>We are excited to be rolling out new speaking styles for newscast, voice assistant, and customer service scenarios for our English and Chinese neural voices.</description>
+      <pubDate>Wed, 18 Mar 2020 16:00:19 Z</pubDate>
+      <atom:content
+        type="text">We are excited to be rolling out new speaking styles for newscast, voice assistant, and customer service scenarios for our English and Chinese neural voices.</atom:content>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <guid
+        isPermaLink="false">onboard-onprem-servers-to-security-center-from-windows-admin-center</guid>
+      <link>https://azure.microsoft.com/en-us/updates/onboard-onprem-servers-to-security-center-from-windows-admin-center/</link>
+      <title>SampleUpdate2</title>
+      <description>Windows Admin Center is a management portal for Windows Servers who are not deployed in Azure offering them several Azure management capabilities such as backup and system updates. We have recently added an ability to onboard these non-Azure servers to be protected by ASC directly from the Windows Admin Center experience.</description>
+      <pubDate>Wed, 18 Mar 2020 16:00:18 Z</pubDate>
+      <atom:content
+        type="text">Windows Admin Center is a management portal for Windows Servers who are not deployed in Azure offering them several Azure management capabilities such as backup and system updates. We have recently added an ability to onboard these non-Azure servers to be protected by ASC directly from the Windows Admin Center experience.</atom:content>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <guid
+        isPermaLink="false">azure-shared-disks-for-clustered-applications-preview-now-available</guid>
+      <link>https://azure.microsoft.com/en-us/updates/azure-shared-disks-for-clustered-applications-preview-now-available/</link>
+      <title>SampleUpdate3</title>
+      <description>Azure Shared Disks is a shared block storage offering, enabling customers to run latency-sensitive workloads without compromising on well-known deployment patterns for fast failover and high availability.</description>
+      <pubDate>Wed, 18 Mar 2020 16:00:18 Z</pubDate>
+      <atom:content
+        type="text">Azure Shared Disks is a shared block storage offering, enabling customers to run latency-sensitive workloads without compromising on well-known deployment patterns for fast failover and high availability.</atom:content>
+      <content:encoded></content:encoded>
+    </item>
+  </channel>
+</rss>

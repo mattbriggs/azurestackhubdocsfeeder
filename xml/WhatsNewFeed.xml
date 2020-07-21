@@ -2,46 +2,46 @@
 <rss xmlns:a10="http://www.w3.org/2005/Atom"
   version="2.0">
   <channel xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
-    <title>Azure service updates</title>
-    <link>https://azure.microsoft.com/updates/</link>
-    <description>Azure service updates</description>
+    <title>Azure Stack service updates</title>
+    <link>https://azurestackhubdocs.azurewebsites.net/xml/WhatsNewFeed.xml</link>
+    <description>Azure Stack service updates</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2020 17:46:43 Z</lastBuildDate>
+    <lastBuildDate>Mon, 13 July 2020 16:00:19 Z</lastBuildDate>
     <atom:link
-      href="https://azure.microsoft.com/updates/feed/"
+      href="https://azurestackhubdocs.azurewebsites.net/xml/WhatsNewFeed.xml"
       rel="self"
       type="application/rss+xml" />
     <item>
       <guid
-        isPermaLink="false">cognitive-services-introduces-new-neural-text-to-speech-voices-for-different-styles</guid>
-      <link>https://azure.microsoft.com/updates/cognitive-services-introduces-new-neural-text-to-speech-voices-for-different-styles/</link>
-      <title>SampleUpdate1</title>
-      <description>We are excited to be rolling out new speaking styles for newscast, voice assistant, and customer service scenarios for our English and Chinese neural voices.</description>
-      <pubDate>Wed, 18 Mar 2020 16:00:19 Z</pubDate>
+        isPermaLink="false">this-build-offers-support-for-3-new-gpu-vm-types-and-size</guid>
+      <link>https://aka.ms/ptlnk-gpus</link>
+      <title>GPUs</title>
+      <description>This build offers support for 3 new GPU VM types- NCv3 (Nvidia V100), NVv4 (AMD Mi25) and NC_T4 (NVIDIA T4) VM size. VM deployments will be successful for those who have the right hardware and are onboarded onto the Azure Stack Hub GPU preview program. If you are interested, sign up for the GPU preview program at https://aka.ms/azurestackhubgpupreview.</description>
+      <pubDate>Mon, 13 July 2020 16:00:19 Z</pubDate>
       <atom:content
-        type="text">We are excited to be rolling out new speaking styles for newscast, voice assistant, and customer service scenarios for our English and Chinese neural voices.</atom:content>
+        type="text">This build offers support for 3 new GPU VM types- NCv3 (Nvidia V100), NVv4 (AMD Mi25) and NC_T4 (NVIDIA T4) VM size. VM deployments will be successful for those who have the right hardware and are onboarded onto the Azure Stack Hub GPU preview program. If you are interested, sign up for the GPU preview program at https://aka.ms/azurestackhubgpupreview.</atom:content>
       <content:encoded></content:encoded>
     </item>
     <item>
       <guid
-        isPermaLink="false">onboard-onprem-servers-to-security-center-from-windows-admin-center</guid>
-      <link>https://azure.microsoft.com/updates/onboard-onprem-servers-to-security-center-from-windows-admin-center/</link>
-      <title>SampleUpdate2</title>
-      <description>Windows Admin Center is a management portal for Windows Servers who are not deployed in Azure offering them several Azure management capabilities such as backup and system updates. We have recently added an ability to onboard these non-Azure servers to be protected by ASC directly from the Windows Admin Center experience.</description>
-      <pubDate>Wed, 18 Mar 2020 16:00:18 Z</pubDate>
+        isPermaLink="false">save-logs-locally</guid>
+      <link>https://aka.ms/ptlnk-locallogs</link>
+      <title>Save Logs Locally</title>
+      <description>There is a new option in the Azure Stack Hub admin portal for air-gapped/disconnected Azure Stack Hub customers, to save logs locally. You can store the logs in a local SMB share when Azure Stack Hub is disconnected from Azure.</description>
+      <pubDate>Mon, 13 July 2020 16:00:19 Z</pubDate>
       <atom:content
-        type="text">Windows Admin Center is a management portal for Windows Servers who are not deployed in Azure offering them several Azure management capabilities such as backup and system updates. We have recently added an ability to onboard these non-Azure servers to be protected by ASC directly from the Windows Admin Center experience.</atom:content>
+        type="text">There is a new option in the Azure Stack Hub admin portal for air-gapped/disconnected Azure Stack Hub customers, to save logs locally. You can store the logs in a local SMB share when Azure Stack Hub is disconnected from Azure.</atom:content>
       <content:encoded></content:encoded>
     </item>
     <item>
       <guid
-        isPermaLink="false">azure-shared-disks-for-clustered-applications-preview-now-available</guid>
-      <link>https://azure.microsoft.com/updates/azure-shared-disks-for-clustered-applications-preview-now-available/</link>
-      <title>SampleUpdate3</title>
-      <description>Azure Shared Disks is a shared block storage offering, enabling customers to run latency-sensitive workloads without compromising on well-known deployment patterns for fast failover and high availability.</description>
-      <pubDate>Wed, 18 Mar 2020 16:00:18 Z</pubDate>
+        isPermaLink="false">known-issues</guid>
+      <link>https://aka.ms/ptlnk-knownissues</link>
+      <title>Known Issues</title>
+      <description>Before creating a Service Request we highly recommend viewing the 'Known Issues' list associated with each Azure Stack Build. The list is updated as new 'known issues' are identified. </description>
+      <pubDate>Mon, 13 July 2020 16:00:19 Z</pubDate>
       <atom:content
-        type="text">Azure Shared Disks is a shared block storage offering, enabling customers to run latency-sensitive workloads without compromising on well-known deployment patterns for fast failover and high availability.</atom:content>
+        type="text">Before creating a Service Request we highly recommend viewing the 'Known Issues' list associated with each Azure Stack Build. The list is updated as new 'known issues' are identified. </atom:content>
       <content:encoded></content:encoded>
     </item>
   </channel>

@@ -8,7 +8,7 @@
         - Improved reliability of log collection for SDN roles by collecting on file share.
         </description>
         <link>
-        https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100?view=azs-1802&branch=pr-en-us-6474
+        "https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100?view=azs-1802&branch=pr-en-us-6474"
         </link>
         <release>2005</release>
         <language>en-us</language>
@@ -29,7 +29,7 @@
             - Fixed a bug which caused the Infrastructure Roles panel in the operator portal to display incorrect health information.
             - Improved reliability of log collection for SDN roles by collecting logs on the file share.
             </description>
-            <link>https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114?view=azs-1802</link>
+            <link>"https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114?view=azs-1802"</link>
             <release>2008</release>
             <language>en-us</language>
             <lastBuildDate>2021-02-05</lastBuildDate>

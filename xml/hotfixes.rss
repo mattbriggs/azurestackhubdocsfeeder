@@ -10,11 +10,6 @@
         <link>
         "https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100"
         </link>
-        <release>2005</release>
-        <language>en-us</language>
-        <lastBuildDate>2021-02-05</lastBuildDate>
-        <atom:link href="https://azurestackhubdocs.azurewebsites.net/xml/hotfix.rss" rel="self"
-            type="application/rss+xml" />
         </item>
         <item>
             <title>Hotifx 1.2008.25.114</title>
@@ -30,11 +25,6 @@
             - Improved reliability of log collection for SDN roles by collecting logs on the file share.
             </description>
             <link>"https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114"</link>
-            <release>2008</release>
-            <language>en-us</language>
-            <lastBuildDate>2021-02-05</lastBuildDate>
-            <atom:link href="https://azurestackhubdocs.azurewebsites.net/xml/hotfix.rss" rel="self"
-                type="application/rss+xml" />
         </item>
     </channel>
 </rss>

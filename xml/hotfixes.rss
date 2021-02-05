@@ -4,11 +4,8 @@
         <item>
         <title>Hotifx 1.2005.29.100</title>
         <description>
-            <ul>
-                <li>Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration.
-                </li>
-                <li>Improved reliability of log collection for SDN roles by collecting on file share.</li>
-            </ul>
+        - Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration.
+        - Improved reliability of log collection for SDN roles by collecting on file share.
         </description>
         <link>
         https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100?view=azs-1802&branch=pr-en-us-6474
@@ -22,23 +19,15 @@
         <item>
             <title>Hotifx 1.2008.25.114</title>
             <description>
-                <ul>
-                    <li>Fixed issue in internal secret rotation that would fail with a timeout error if value-add
-                        resource providers were unhealthy.</li>
-                    <li>Fixed a bug in which closed alerts' Last Modified Time was updated in the operator portal even
-                        if the alert stayed closed.</li>
-                    <li>Optimized operator alert request handling, which reduces the chance of timeouts when viewing
-                        alerts in the operator portal or monitoring them via SCOM.</li>
-                    <li>Check and enforce key protectors on cluster shared volumes per host.</li>
-                    <li>Fixed issue in which Managed Disk usage data was not being reported after the 2008 update.</li>
-                    <li>Fixed VMs losing connectivity while SuspendNode is occurring in MAS, as part of host reboot
-                        during patch and update.</li>
-                    <li>Added PEP to retrieve current registration details, stale object cleanup for
-                        Remove-Registration.</li>
-                    <li>Fixed a bug which caused the Infrastructure Roles panel in the operator portal to display
-                        incorrect health information.</li>
-                    <li>Improved reliability of log collection for SDN roles by collecting logs on the file share.</li>
-                </ul>
+            - Fixed issue in internal secret rotation that would fail with a timeout error if value-add resource providers were unhealthy.
+            - Fixed a bug in which closed alerts' Last Modified Time was updated in the operator portal even if the alert stayed closed.
+            - Optimized operator alert request handling, which reduces the chance of timeouts when viewing alerts in the operator portal or monitoring them via SCOM.
+            - Check and enforce key protectors on cluster shared volumes per host.
+            - Fixed issue in which Managed Disk usage data was not being reported after the 2008 update.
+            - Fixed VMs losing connectivity while SuspendNode is occurring in MAS, as part of host reboot during patch and update.
+            - Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration.
+            - Fixed a bug which caused the Infrastructure Roles panel in the operator portal to display incorrect health information.
+            - Improved reliability of log collection for SDN roles by collecting logs on the file share.
             </description>
             <link>https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114?view=azs-1802</link>
             <release>2008</release>

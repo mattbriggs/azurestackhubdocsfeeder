@@ -8,29 +8,31 @@
         <item>
             <title>Hotifx 1.2005.29.100</title>
             <description>
-                - Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration.
-                - Improved reliability of log collection for SDN roles by collecting on file share.
+                - Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration.<br>
+                - Improved reliability of log collection for SDN roles by collecting on file share.<br>
             </description>
+            <link>https://docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100</link>
             <guid>https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100</guid>
         </item>
         <item>
             <title>Hotifx 1.2008.25.114</title>
             <description>
                 - Fixed issue in internal secret rotation that would fail with a timeout error if value-add resource
-                providers were unhealthy.
+                providers were unhealthy.<br>
                 - Fixed a bug in which closed alerts' Last Modified Time was updated in the operator portal even if the
-                alert stayed closed.
+                alert stayed closed.<br>
                 - Optimized operator alert request handling, which reduces the chance of timeouts when viewing alerts in
-                the operator portal or monitoring them via SCOM.
+                the operator portal or monitoring them via SCOM.<br>
                 - Check and enforce key protectors on cluster shared volumes per host.
                 - Fixed issue in which Managed Disk usage data was not being reported after the 2008 update.
                 - Fixed VMs losing connectivity while SuspendNode is occurring in MAS, as part of host reboot during
-                patch and update.
+                patch and update.<br>
                 - Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration.
                 - Fixed a bug which caused the Infrastructure Roles panel in the operator portal to display incorrect
-                health information.
-                - Improved reliability of log collection for SDN roles by collecting logs on the file share.
+                health information.<br>
+                - Improved reliability of log collection for SDN roles by collecting logs on the file share.<br>
             </description>
+            <link>https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114</link>
             <guid>https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114</guid>
         </item>
     </channel>

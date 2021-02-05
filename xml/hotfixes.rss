@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-    <channel>
+
+<channel>
+  <title>Azure Stack Hub Hotfixes</title>
+  <link>https://docs.microsoft.com/azure-stack/</link>
+  <description>Hotfixes for Azure Stack Hub</description>
         <item>
         <title>Hotifx 1.2005.29.100</title>
         <description>
@@ -26,5 +30,6 @@
             </description>
             <link>"https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114"</link>
         </item>
-    </channel>
+</channel>
+
 </rss>

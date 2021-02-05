@@ -9,15 +9,15 @@
             <title>Hotifx 1.2005.29.100</title>
             <description>Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration. Improved reliability of log collection for SDN roles by collecting on file share.</description>
             <link>https://docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100</link>
-            <guid>0058EBA7-BEA1-408B-8E1B-E89598C6B472</guid>
-            <pubDate>02/03/2021</pubDate>
+            <guid>https://docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100</guid>
+            <pubDate>Wed, 3 Feb 2021 14:59:19 -0700</pubDate>
         </item>
         <item>
             <title>Hotifx 1.2008.25.114</title>
             <description>Fixed issue in internal secret rotation that would fail with a timeout error if value-add resource providers were unhealthy. Fixed a bug in which closed alerts' Last Modified Time was updated in the operator portal even if the alert stayed closed. Optimized operator alert request handling, which reduces the chance of timeouts when viewing alerts in the operator portal or monitoring them via SCOM. Check and enforce key protectors on cluster shared volumes per host. Fixed issue in which Managed Disk usage data was not being reported after the 2008 update. Fixed VMs losing connectivity while SuspendNode is occurring in MAS, as part of host reboot during patch and update. Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration. Fixed a bug which caused the Infrastructure Roles panel in the operator portal to display incorrect health information. Improved reliability of log collection for SDN roles by collecting logs on the file share.</description>
             <link>https://docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114</link>
-            <guid>699318DF-0F9B-4CCF-A6FC-7A27E27D529C</guid>
-            <pubDate>02/03/2021</pubDate>
+            <guid>https://docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114</guid>
+            <pubDate>Wed, 3 Feb 2021 14:59:19 -0700</pubDate>
         </item>
     </channel>
 

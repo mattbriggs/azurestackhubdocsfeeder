@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="https://azurestackhubdocs.azurewebsites.net/xml/hotfix.rss" rel="self"
+        <atom:link href="https://azurestackhubdocs.azurewebsites.net/xml/hotfixes_test.rss" rel="self"
             type="application/rss+xml" />
-        <title>Azure Stack Hub Hotfixes</title>
+        <title>Azure Stack Hub Hotfixes_test</title>
         <link>https://docs.microsoft.com/azure-stack/</link>
         <description>Hotfixes for Azure Stack Hub</description>
         <item>
@@ -11,8 +11,8 @@
             <description>Added PEP to retrieve current registration details, stale object cleanup for
                 Remove-Registration. Improved reliability of log collection for SDN roles by collecting on file share.
             </description>
-            <link>https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100</link>
-            <guid>https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-29-100</guid>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-29-100</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-29-100</guid>
             <pubDate>Fri, 05 Feb 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
@@ -27,9 +27,60 @@
                 registration details, stale object cleanup for Remove-Registration. Fixed a bug which caused the
                 Infrastructure Roles panel in the operator portal to display incorrect health information. Improved
                 reliability of log collection for SDN roles by collecting logs on the file share.</description>
-            <link>https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114</link>
-            <guid>https://review.docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-25-114</guid>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-25-114</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-25-114</guid>
             <pubDate>Fri, 05 Feb 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2002.66.173</title>
+            <description>Fixed an invalid state in Storage Resource Provider for storage accounts migrated from 1910
+                with suspended state. Improved resiliency of VM provisioning and extension operations.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-66-173</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-66-173</guid>
+            <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.30.102</title>
+            <description>Fixed an invalid state in Storage resource provider for storage accounts migrated from 1910
+                with suspended state. Improved resiliency of VM provisioning, extension, and image operations.
+            </description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-30-102</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-30-102</guid>
+            <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.26.116</title>
+            <description>Fixed appearance of ghost NICs when deleting a resource group. Fixed regression in
+                Test-AzureStack that caused VM deployment test case to automatically skip. Improved resiliency of VM
+                provisioning, extension, and image operations. Fixed an invalid state in Storage resource provider for
+                storage accounts migrated from 1910 with suspended state. Fixed a bug in local health system that
+                potentially increased memory pressure on infrastructure.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-26-116</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-26-116</guid>
+            <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2002.67.175</title>
+            <description>Required a specific industry standard solution that was a third party tool.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-67-175</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-67-175</guid>
+            <pubDate>Mon, 08 Mar 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.32.106</title>
+            <description>Fixed a bug in local health system that potentially increased memory pressure on
+                infrastructure. Patched SDN-related binaries on the physical nodes.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-32-106</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-32-106</guid>
+            <pubDate>Tue, 09 Mar 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.27.118</title>
+            <description>Patched SDN-related binaries on the physical nodes. Improved reliability and diagnosing
+                capabilities of patch and update. Added auto-remediation for SQL cluster.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-27-118</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-27-118</guid>
+            <pubDate>Tue, 09 Mar 2021 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

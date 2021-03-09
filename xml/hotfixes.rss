@@ -61,7 +61,7 @@
         </item>
         <item>
             <title>Hotfix 1.2002.67.175</title>
-            <description>Required a specific industry standard solution that was a third party tool.</description>
+            <description>Patched SDN-related binaries on the physical nodes.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-67-175</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-67-175</guid>
             <pubDate>Mon, 08 Mar 2021 00:00:00 -0000</pubDate>

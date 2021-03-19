@@ -85,10 +85,17 @@
             <pubDate>Thu, 11 Mar 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix 1.2008.27.118</title>
+            <title>Hotfix 1.2008.27.test</title>
             <description>Test file</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-27-test</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-27-test</guid>
+            <pubDate>Thu, 18 Mar 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.16.test</title>
+            <description>Test file2</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-27-test2</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-27-test2</guid>
             <pubDate>Thu, 18 Mar 2021 00:00:00 -0000</pubDate>
         </item>
     </channel>

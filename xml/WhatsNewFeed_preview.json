@@ -53,7 +53,7 @@
     <item>
       <guid isPermaLink="false">enable-multitenancy</guid>
       <link>https://docs.microsoft.com/azure-stack/operator/enable-multitenancy</link>
-      <title>Configure multi-tenancy</title>
+      <title>Configure multi-tenancy using the administrator portal</title>
       <description>You can configure Azure Stack Hub with the administrator portal to support sign-ins from users that
         reside in other Azure Active Directory (Azure AD) directories, allowing them to use services in Azure Stack Hub.
       </description>

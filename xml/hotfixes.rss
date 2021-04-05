@@ -84,5 +84,29 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-27-118</guid>
             <pubDate>Thu, 11 Mar 2021 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2008.31.126</title>
+            <description>Fixed VM NICs getting a different hardware identifier after VM is deallocated and restarted.
+                Monitored and rebooted VMs based on memory pressure. Added AzsGBRReadiness in Test-AzureStack to check
+                physical disks' health for granular bitmap repair readiness. Reactivated firewall rules to enable SNMP
+                traffic on ERCS VMs. Fixed an issue in which modifying any properties on the Local Network Gateway was
+                causing other VPN connections on that gateway to disconnect. Fixed an issue in which infrastructure VM
+                deployment can fail after applying a hotfix. Cleaned up stale user profile folders to clear disk space.
+                Fixed an issue in which a secondary blob data partition cannot be loaded in some error cases. Fixed some
+                bugs with the use of temporary domain accounts. Enhanced temporary domain account naming to ensure
+                uniqueness.</description>
+            <link>https://docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-33-108</link>
+            <guid>https://docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2005-33-108</guid>
+            <pubDate>Mon, 05 Apr 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.33.108</title>
+            <description>Fixed an issue in which partner node certificates required by nchotagent might be deleted.
+                Fixed VM NICs getting a different hardware identifier after VM is deallocated and restarted. Fixed an
+                issue in which infrastructure VM deployment can fail after applying a hotfix.</description>
+            <link>https://docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-31-126</link>
+            <guid>https://docs.microsoft.com/en-us/azure-stack/operator/hotfix-1-2008-31-126</guid>
+            <pubDate>Mon, 05 Apr 2021 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

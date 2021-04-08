@@ -97,7 +97,7 @@
                 uniqueness.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-33-108</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-33-108</guid>
-            <pubDate>Mon, 05 Apr 2021 00:00:00 -0000</pubDate>
+            <pubDate>Thu, 08 Apr 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
             <title>Hotfix 1.2005.33.108</title>
@@ -106,7 +106,7 @@
                 issue in which infrastructure VM deployment can fail after applying a hotfix.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-31-126</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-31-126</guid>
-            <pubDate>Mon, 05 Apr 2021 00:00:00 -0000</pubDate>
+            <pubDate>Thu, 08 Apr 2021 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

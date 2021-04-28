@@ -103,10 +103,29 @@
             <title>Hotfix 1.2005.33.108</title>
             <description>Fixed an issue in which partner node certificates required by nchotagent might be deleted.
                 Fixed VM NICs getting a different hardware identifier after VM is deallocated and restarted. Fixed an
-                issue in which infrastructure VM deployment can fail after applying a hotfix.</description>
+                issue in which infrastructure VM deployment can fail after applying a hotfix. Fixed an issue in which a
+                secondary blob data partition cannot be loaded in some error cases.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-33-108</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-33-108</guid>
-            <pubDate>Thu, 08 Apr 2021 00:00:00 -0000</pubDate>
+            <pubDate>Fri, 09 Apr 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix-1-2005-35-112</title>
+            <description>Enhanced idempotent logic in handling malfunctioning TPMs. Fixed an issue in which uninstalling
+                some extensions put previously deployed extensions into a failed state.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-35-112</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-35-112</guid>
+            <pubDate>Wed, 28 Apr 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix-1-2008-33-131</title>
+            <description>Enhanced idempotent logic in handling malfunctioning TPMs. Fixed an issue in which uninstalling
+                some extensions put previously deployed extensions into a failed state. Fixed an issue in which
+                duplicate installed updates were shown in the update history list. Fixed an intermittent issue in which
+                FRU of SRNG could fail connecting to the ECE agent.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-33-131</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-33-131</guid>
+            <pubDate>Wed, 28 Apr 2021 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

@@ -127,5 +127,53 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-33-131</guid>
             <pubDate>Wed, 28 Apr 2021 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix-1-2002-69-179</title>
+            <description>Fixed a bug in which BCDR runner logs filled up MASLogs folders on physical hosts.
+            </description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-69-179</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-69-179</guid>
+            <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix-1-2005-41-124</title>
+            <description>Patched missing Hyper-V endpoint, enabling compute control plane operations to call the
+                appropriate endpoint. Fixed a bug in which BCDR runner logs filled up MASLogs folders on physical hosts.
+                Added monitoring for WMI and remediation.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-41-124</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-41-124</guid>
+            <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix-1-2008-37-139</title>
+            <description>Improved update reliability by adding detection and self-healing for low available memory
+                conditions on ERCS VMs at the beginning of the update orchestration. Fixed a bug in which BCDR runner
+                logs fill up MASLogs folders on physical hosts. Added monitoring for WMI and remediation. Added Network
+                Controller IMOS size check to Test-AzureStack. Fixed internal secret rotation failures (failing at the
+                NC:Secret rotate step), seen after updating to Azure Stack Hub version 1.2008.25.114 or higher from the
+                latest 2005 release. Configured stamp ADFS to monitor corporate ADFS signing certificate rollover. This
+                is for Azure Stack Hub with ADFS identity systems when Azure Stack Hub is configured with corp ADFS and
+                a federation metadata endpoint. Fixed alert to remediation linking. Moved memory-critical alert to
+                preview. Fixed health package registration, removing duplicate artifact creation. Improved reliability
+                of RdAgent upgrade.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-37-139</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-37-139</guid>
+            <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix-1-2102-28-87</title>
+            <description>Updated memory configuration for VM sizes Standard_NC16as_T4_v3 and Standard_NC64as_T4_v3.
+                Removed legacy SRP SQL instances and DB files to free up stamp resources. Fixed a bug in which the
+                cluster status can be stuck in "Configuring Storage" after adding a new node. Fixed health package
+                registration, removing duplicate artifact creation. Fixed a bug that sometimes caused health blades in
+                the operator portal to become unavailable. Fixed a bug in which BCDR runner logs filled up MASLogs
+                folders on physical hosts. Added monitoring of WMIProvider health and remediation. Added Network
+                Controller IMOS size check to Test-AzureStack. Fixed a bug in SSL certificate validation during internal
+                secret rotation. Fixed process watchdog memory leaks. Updated Defender platform to version 4.18.2103.7.
+            </description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-87</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-87</guid>
+            <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

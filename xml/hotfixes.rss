@@ -7,7 +7,7 @@
         <link>https://docs.microsoft.com/azure-stack/</link>
         <description>Hotfixes for Azure Stack Hub</description>
         <item>
-            <title>Hotifx 1.2005.29.100</title>
+            <title>Hotifix 1.2005.29.100</title>
             <description>Added PEP to retrieve current registration details, stale object cleanup for
                 Remove-Registration. Improved reliability of log collection for SDN roles by collecting on file share.
             </description>
@@ -16,7 +16,7 @@
             <pubDate>Fri, 05 Feb 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotifx 1.2008.25.114</title>
+            <title>Hotifix 1.2008.25.114</title>
             <description>Fixed issue in internal secret rotation that would fail with a timeout error if value-add
                 resource providers were unhealthy. Fixed a bug in which closed alerts' Last Modified Time was updated in
                 the operator portal even if the alert stayed closed. Optimized operator alert request handling, which
@@ -174,6 +174,24 @@
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-87</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-87</guid>
             <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.28.89</title>
+            <description>ETW trace sessions are configured to use 16 MB of non-pagedpool memory. Trace sessions now
+                report lost event count (if any) per session, during ETL file rotation in TraceCollector Eventlog. This
+                releases critical non-paged pool memory for other services on hosts and VMs. Also fixed various bugs in
+                Tracecollector. Fixed bugs that increased memory pressure on infrastructure. Fixed bugs in AD FS and
+                Azure Stack Graph to improve deployment and upgrade reliability. Fixed bugs in SRP and DiskRP in which
+                performance counters were missing in the WAC client. Fixed a bug in resource provider (for example,
+                Event Hubs) deployment, update, or secret rotation. The operation previously failed with no apparent
+                failure cause. The fix allows the operation to complete successfully. Fixed a bug that incorrectly
+                raised a PnPDevice.Attached alert for a set of devices (mouse, keyboard, etc.) that were safe. Set
+                memory alert to preview. Addressed an issue with host agent monitors. Fixed a trust relationship issue
+                with container applications in FabricRing. Improved RdAgent availability by removing empty RdAgent
+                files. Improved reliability of full update. Increased update readiness checks.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-89</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-89</guid>
+            <pubDate>Tue, 06 Jul 2021 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

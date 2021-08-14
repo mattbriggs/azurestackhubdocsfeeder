@@ -7,7 +7,7 @@
         <link>https://docs.microsoft.com/azure-stack/</link>
         <description>Hotfixes for Azure Stack Hub</description>
         <item>
-            <title>Hotifx 1.2005.29.100</title>
+            <title>Hotifix 1.2005.29.100</title>
             <description>Added PEP to retrieve current registration details, stale object cleanup for
                 Remove-Registration. Improved reliability of log collection for SDN roles by collecting on file share.
             </description>
@@ -16,7 +16,7 @@
             <pubDate>Fri, 05 Feb 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotifx 1.2008.25.114</title>
+            <title>Hotifix 1.2008.25.114</title>
             <description>Fixed issue in internal secret rotation that would fail with a timeout error if value-add
                 resource providers were unhealthy. Fixed a bug in which closed alerts' Last Modified Time was updated in
                 the operator portal even if the alert stayed closed. Optimized operator alert request handling, which
@@ -110,7 +110,7 @@
             <pubDate>Wed, 07 Apr 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix-1-2005-35-112</title>
+            <title>Hotfix 1.2005.35.112</title>
             <description>Enhanced idempotent logic in handling malfunctioning TPMs. Fixed an issue in which uninstalling
                 some extensions put previously deployed extensions into a failed state.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-35-112</link>
@@ -118,7 +118,7 @@
             <pubDate>Wed, 28 Apr 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix-1-2008-33-131</title>
+            <title>Hotfix 1.2008.33.131</title>
             <description>Enhanced idempotent logic in handling malfunctioning TPMs. Fixed an issue in which uninstalling
                 some extensions put previously deployed extensions into a failed state. Fixed an issue in which
                 duplicate installed updates were shown in the update history list. Fixed an intermittent issue in which
@@ -128,7 +128,7 @@
             <pubDate>Wed, 28 Apr 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix-1-2002-69-179</title>
+            <title>Hotfix 1.2002.69.179</title>
             <description>Fixed a bug in which BCDR runner logs filled up MASLogs folders on physical hosts.
             </description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-69-179</link>
@@ -136,7 +136,7 @@
             <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix-1-2005-41-124</title>
+            <title>Hotfix 1.2005.41.124</title>
             <description>Patched missing Hyper-V endpoint, enabling compute control plane operations to call the
                 appropriate endpoint. Fixed a bug in which BCDR runner logs filled up MASLogs folders on physical hosts.
                 Added monitoring for WMI and remediation.</description>
@@ -145,7 +145,7 @@
             <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix-1-2008-37-139</title>
+            <title>Hotfix 1.2008.37.139</title>
             <description>Improved update reliability by adding detection and self-healing for low available memory
                 conditions on ERCS VMs at the beginning of the update orchestration. Fixed a bug in which BCDR runner
                 logs fill up MASLogs folders on physical hosts. Added monitoring for WMI and remediation. Added Network
@@ -161,7 +161,7 @@
             <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix-1-2102-28-87</title>
+            <title>Hotfix 1.2102.28.87</title>
             <description>Updated memory configuration for VM sizes Standard_NC16as_T4_v3 and Standard_NC64as_T4_v3.
                 Removed legacy SRP SQL instances and DB files to free up stamp resources. Fixed a bug in which the
                 cluster status can be stuck in "Configuring Storage" after adding a new node. Fixed health package
@@ -194,7 +194,7 @@
             <pubDate>Tue, 06 Jul 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix 1-2005-42-126</title>
+            <title>Hotfix 1.2005.42.126</title>
             <description>Accounted for some ghost NIC scenarios when deleting a resource group. Improved reliability of
                 process watchdog. Fixed bugs that increased memory pressure on infrastructure.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-42-126</link>
@@ -202,7 +202,7 @@
             <pubDate>Wed, 14 Jul 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix 1-2008-40-148</title>
+            <title>Hotfix 1.2008.40.148</title>
             <description>ETW trace sessions are configured to use 16 MB of non-pagedpool memory. Trace sessions now
                 report lost event count (if any) per session, during ETL file rotation in TraceCollector Eventlog. This
                 releases critical non-paged pool memory for other services on hosts and VMs. Also fixed various bugs in
@@ -215,6 +215,35 @@
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-148</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-148</guid>
             <pubDate>Wed, 14 Jul 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.46.133</title>
+            <description>Fix for more ghost NIC scenarios when deleting a resource group. Added banner to warn users
+                when a certificate will expire soon. Fix for more ghost NIC scenarios when deleting a resource group.
+            </description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-46-133</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-46-133</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.40.150</title>
+            <description>Added banner to warn users when a certificate will expire soon. Improved reliability of update
+                from 2008 to 2102. Improved reliability of update from 2005 to 2008. Improved RdAgent availability by
+                removing empty RdAgent files. Fix for more ghost NIC scenarios when deleting a resource group. Fixed an
+                issue that, in rare cases, deleted VNet peerings.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-150</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-150</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.101</title>
+            <description>Fixed a multi-tenancy website security issue. Improved reliability of update from 2008 to 2102.
+                Fix for adding availability set to SQL VM in the SQL VM creation process. Fix for setting storage size
+                in SQL VM configuration to more than 1000 GB. Fixed group-based authorization errors for users that
+                require group expansion.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-101</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-101</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

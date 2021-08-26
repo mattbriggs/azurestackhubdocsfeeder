@@ -245,5 +245,29 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-101</guid>
             <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2005.47.135</title>
+            <description>Fixes rolled up from previous hotfix releases.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-47-135</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-47-135</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.40.151</title>
+            <description>Improved resiliency of compute admin operations. Removed overly verbose logging from Software
+                Load Balancer VMs.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-151</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-151</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.102</title>
+            <description>Improved resiliency of compute admin operations. Removed overly verbose logging from Software
+                Load Balancer VMs. Fixed a memory leak issue and improved memory efficiency for monitoring services.
+            </description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-102</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-102</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

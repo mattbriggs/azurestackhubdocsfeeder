@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="https://azurestackhubdocs.azurewebsites.net/xml/hotfixes_test.rss" rel="self"
+        <atom:link href="https://azurestackhubdocs.azurewebsites.net/xml/hotfixes.rss" rel="self"
             type="application/rss+xml" />
-        <title>Azure Stack Hub Hotfixes_test</title>
+        <title>Azure Stack Hub Hotfixes</title>
         <link>https://docs.microsoft.com/azure-stack/</link>
         <description>Hotfixes for Azure Stack Hub</description>
         <item>
@@ -244,6 +244,54 @@
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-101</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-101</guid>
             <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.47.135</title>
+            <description>Removed overly verbose logging from Software Load Balancer VMs.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-47-135</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-47-135</guid>
+            <pubDate>Wed, 08 Sep 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.40.151</title>
+            <description>Improved resiliency of compute admin operations. Removed overly verbose logging from Software
+                Load Balancer VMs.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-151</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-151</guid>
+            <pubDate>Wed, 08 Sep 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.102</title>
+            <description>Improved resiliency of compute admin operations. Removed overly verbose logging from Software
+                Load Balancer VMs. Fixed a memory leak issue and improved memory efficiency for monitoring services.
+            </description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-102</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-102</guid>
+            <pubDate>Wed, 08 Sep 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1-2102-30-103</title>
+            <description>Improved auto-remediation workflow for memory utilization.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-103</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-103</guid>
+            <pubDate>Thu, 23 Sep 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1-2008-40-153</title>
+            <description>Improved auto-remediation workflow for memory utilization. Addressed an issue in the
+                Reset-CloudAdminPassword cmdlet. Updated Network Controller to fix bugs in PA VIP allocation and IP-MAC
+                leaks. Improved resiliency of PEP startup script.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-153</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-153</guid>
+            <pubDate>Thu, 23 Sep 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1-2005-48-137</title>
+            <description>Addressed an issue in the Reset-CloudAdminPassword cmdlet. Updated Network Controller to fix
+                bugs in PA VIP allocation and IP-MAC leaks.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-48-137</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-48-137</guid>
+            <pubDate>Thu, 23 Sep 2021 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

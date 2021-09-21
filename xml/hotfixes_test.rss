@@ -270,14 +270,14 @@
             <pubDate>Wed, 08 Sep 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix 1-2102-30-103</title>
+            <title>Hotfix 1.2102.30.104</title>
             <description>Improved auto-remediation workflow for memory utilization.</description>
-            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-103</link>
-            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-103</guid>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-104</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-104</guid>
             <pubDate>Thu, 23 Sep 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix 1-2008-40-153</title>
+            <title>Hotfix 1.2008.40.153</title>
             <description>Improved auto-remediation workflow for memory utilization. Addressed an issue in the
                 Reset-CloudAdminPassword cmdlet. Updated Network Controller to fix bugs in PA VIP allocation and IP-MAC
                 leaks. Improved resiliency of PEP startup script.</description>
@@ -286,7 +286,7 @@
             <pubDate>Thu, 23 Sep 2021 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix 1-2005-48-137</title>
+            <title>Hotfix 1.2005.48.137</title>
             <description>Addressed an issue in the Reset-CloudAdminPassword cmdlet. Updated Network Controller to fix
                 bugs in PA VIP allocation and IP-MAC leaks.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-48-137</link>

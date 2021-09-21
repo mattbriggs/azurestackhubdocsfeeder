@@ -67,10 +67,10 @@
     <guid isPermaLink="false">update-vm-management-extension-fix-omi</guid>
     <link>https://docs.microsoft.com/azure-stack/operator/marketplace-update-items</link>
     <title>Update VM management extensions to address OMI vulnerability</title>
-    <description>A vulnerability has been identified with OMI that effects Linux VM extensions on Azure Stack Hub. Update your VM extensions.
+    <description>A vulnerability has been identified with OMI that affects Linux VM extensions on Azure Stack Hub. Update your VM extensions.
     </description>
     <pubDate>Tue, 21 Sep 2021 16:00:00 Z</pubDate>
-    <atom:content type="text">A vulnerability has been identified with OMI that effects Linux VM extensions on Azure Stack Hub. Update your
+    <atom:content type="text">A vulnerability has been identified with OMI that affects Linux VM extensions on Azure Stack Hub. Update your
     VM extensions.</atom:content>
     <content:encoded></content:encoded>
   </item>

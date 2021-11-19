@@ -309,5 +309,13 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-109</guid>
             <pubDate>Mon, 08 Nov 2021 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2102.30.111</title>
+            <description>Add retry for get-volume requests in Test-AzureStack infra capacity check. Shorten the
+                "break-glass" tokens and make them human-readable.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-111</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-111</guid>
+            <pubDate>Tue, 23 Nov 2021 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

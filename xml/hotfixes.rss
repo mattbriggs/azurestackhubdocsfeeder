@@ -309,5 +309,16 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-109</guid>
             <pubDate>Mon, 08 Nov 2021 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2102.30.116</title>
+            <description>Add retry for get-volume requests in Test-AzureStack infra capacity check. Shorten the
+                "break-glass" tokens and make them human-readable. Fixed a bug related to physical disk health when
+                repairing a node with SED drives. Improved Datapruner processing to minimize actor timeout alerts.
+                Enabled rotation of health agent SSL certificate as part of internal secret rotation. Added graphs to
+                Storage area that show volume performance.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-116</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-116</guid>
+            <pubDate>Sun, 13 Dec 2015 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

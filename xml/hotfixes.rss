@@ -326,7 +326,23 @@
                 minimize actor timeout alerts.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-156</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-156</guid>
-            <pubDate>Thu, 16 Dec 2021 00:00:00 -0000</pubDate>
+            <pubDate>Mon, 10 Jan 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2108.2.71</title>
+            <description>Fix to improve SLB throughput after enabling Simultaneous Multi-Threading (SMT). Fixed an issue
+                in which the table service partition was offline when its underlying storage was out of space. Added
+                retry logic around Get-Volume calls in Test-AzureStack InfraCapacity validation.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-71</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-71</guid>
+            <pubDate>Mon, 10 Jan 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.118</title>
+            <description>Various bug fixes and enhancements.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-118</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-118</guid>
+            <pubDate>Mon, 10 Jan 2022 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

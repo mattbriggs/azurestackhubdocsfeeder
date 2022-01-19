@@ -328,22 +328,19 @@
             <pubDate>Tue, 18 Jan 2022 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix 1.2102.30.119</title>
-            <description>Resolved an issue in which the Create a Virtual Machine image dropdown displays image options
-                that are not available or were not downloaded to the stamp. Fixed an issue in which the
-                PrivateWorkingSet queried value overflows if larger than 4GB. Removed some unnecessary detailed error
-                information on the administrator portal. Improvements to support tools. Resolved an issue with some Key
-                Vault applications being in an unhealthy state while updating from 2102 to later builds.</description>
-            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-119</link>
-            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-119</guid>
-            <pubDate>Tue, 18 Jan 2022 00:00:00 -0000</pubDate>
+            <title>Hotfix 1.2102.30.118</title>
+            <description>Various bug fixes and enhancements.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-118</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-118</guid>
+            <pubDate>Wed, 19 Jan 2022 00:00:00 -0000</pubDate>
         </item>
         <item>
-            <title>Hotfix 1.2008.41.159</title>
-            <description>Improvements to support tools.</description>
-            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-159</link>
-            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-159</guid>
-            <pubDate>Tue, 18 Jan 2022 00:00:00 -0000</pubDate>
+            <title>Hotfix 1.2008.40.156</title>
+            <description>Added graphs to Storage area that show volume performance. Improved Datapruner processing to
+                minimize actor timeout alerts.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-156</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-156</guid>
+            <pubDate>Wed, 19 Jan 2022 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

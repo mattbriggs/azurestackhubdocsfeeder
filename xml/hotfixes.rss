@@ -358,7 +358,7 @@
             <description>Fixed a disk snapshot failure and VM IO hang when taking snapshots.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-73</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-73</guid>
-            <pubDate>Tue, 18 Jan 2022 00:00:00 -0000</pubDate>
+            <pubDate>Wed, 23 Feb 2022 00:00:00 -0000</pubDate>
         </item>
         <item>
             <title>Hotfix 1.2108.2.81</title>

@@ -362,5 +362,16 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-122</guid>
             <pubDate>Tue, 15 Mar 2022 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2108.2.83</title>
+            <description>Support for new Kubernetes versions in AKS. Fixed bugs in trace collector. Fixed a bug related
+                to physical disk health when repairing a node with SED drives. Improvements to support tools. Fixed bugs
+                in log collection. Fixed code defect leading to VM deployment failures. Improved the resolution of the
+                Network Resource Provider. Fixed a bug in incremental disk snapshots in which a failed snapshot can
+                block any future snapshot operations.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-83</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-83</guid>
+            <pubDate>Wed, 16 Mar 2022 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

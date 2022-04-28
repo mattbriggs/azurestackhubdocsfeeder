@@ -392,5 +392,12 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-132</guid>
             <pubDate>Thu, 14 Apr 2022 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2108.2.102</title>
+            <description>Fixed an issue that could impact updating from 2102 to 2108.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-102</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-102</guid>
+            <pubDate>Thu, 28 Apr 2022 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

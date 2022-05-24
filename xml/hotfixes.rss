@@ -290,21 +290,21 @@
             <description>Fixed an issue in which some StorageController requests might time out under high concurrency. Removed some of the network performance counters and reduced collection interval for other perf counters. Cleaned up unneeded networking traces from Baremetal, NC and XRP VMs. Fixed an issue deleting Microsoft.ContainerService/managedCluster resources that occurred when resources managed by the AKS resource provider were manually deleted beforehand. Fixed a regression in which VM status is reported as UNKNOWN in the portal.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-111</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-111</guid>
-            <pubDate>Mon, 23 May 2022 00:00:00 -0000</pubDate>
+            <pubDate>Tue, 24 May 2022 00:00:00 -0000</pubDate>
         </item>
         <item>
             <title>Hotfix 1.2102.30.146</title>
             <description>Fixed a bug in incremental disk snapshots in which a failed snapshot can block any future snapshot operation. Fixed a mismatched cluster name issue in FRP.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-146</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-146</guid>
-            <pubDate>Mon, 23 May 2022 00:00:00 -0000</pubDate>
+            <pubDate>Tue, 24 May 2022 00:00:00 -0000</pubDate>
         </item>
         <item>
             <title>Hotfix 1.2008.41.161</title>
             <description>Fixes and performance enhancements.</description>
             <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-161</link>
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-161</guid>
-            <pubDate>Mon, 23 May 2022 00:00:00 -0000</pubDate>
+            <pubDate>Tue, 24 May 2022 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

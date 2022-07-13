@@ -7,7 +7,7 @@
     <link>https://azurestackhubdocs.azurewebsites.net/xml/WhatsNewFeed.json</link>
     <description>Azure Stack service updates</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 July 2020 16:00:19 Z</lastBuildDate>
+    <lastBuildDate>Mon, 13 July 2020 16:00:19</lastBuildDate>
     <atom:link href="https://azurestackhubdocs.azurewebsites.net/xml/WhatsNewFeed.xml" rel="self"
       type="application/rss+xml" />
     <item>
@@ -18,7 +18,7 @@
         (NVIDIA T4) VM size. VM deployments will be successful for those who have the right hardware and are onboarded
         onto the Azure Stack Hub GPU preview program. If you are interested, sign up for the GPU preview program at
         https://aka.ms/azurestackhubgpupreview.</description>
-      <pubDate>Mon, 13 July 2020 16:00:19 Z</pubDate>
+      <pubDate>Mon, 13 July 2020 16:00:19</pubDate>
       <atom:content type="text">This build offers support for 3 new GPU VM types- NCv3 (Nvidia V100), NVv4 (AMD Mi25)
         and NC_T4 (NVIDIA T4) VM size. VM deployments will be successful for those who have the right hardware and are
         onboarded onto the Azure Stack Hub GPU preview program. If you are interested, sign up for the GPU preview
@@ -32,7 +32,7 @@
       <description>There is a new option in the Azure Stack Hub admin portal for air-gapped/disconnected Azure Stack Hub
         customers, to save logs locally. You can store the logs in a local SMB share when Azure Stack Hub is
         disconnected from Azure.</description>
-      <pubDate>Mon, 13 July 2020 16:00:19 Z</pubDate>
+      <pubDate>Mon, 13 July 2020 16:00:19</pubDate>
       <atom:content type="text">There is a new option in the Azure Stack Hub admin portal for air-gapped/disconnected
         Azure Stack Hub customers, to save logs locally. You can store the logs in a local SMB share when Azure Stack
         Hub is disconnected from Azure.</atom:content>
@@ -44,7 +44,7 @@
       <title>Known Issues</title>
       <description>Before creating a Service Request we highly recommend viewing the 'Known Issues' list associated with
         each Azure Stack Build. The list is updated as new 'known issues' are identified. </description>
-      <pubDate>Mon, 13 July 2020 16:00:19 Z</pubDate>
+      <pubDate>Mon, 13 July 2020 16:00:19</pubDate>
       <atom:content type="text">Before creating a Service Request we highly recommend viewing the 'Known Issues' list
         associated with each Azure Stack Build. The list is updated as new 'known issues' are identified.
       </atom:content>
@@ -76,7 +76,7 @@
   </item>
   <item>
   <guid isPermaLink="false">update-azure-monitor-update-config-CVE-2022-29149</guid>
-  <linkhttps://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-29149</link>
+  <link>https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-29149</link>
   <title>Update to Azure Monitor, Update and Configuration Management extension (CVE-2022-29149)</title>
   <description>Azure Monitor, Update and Configuration Management extension for Azure Stack Hub has been updated to the latest version. This version includes the fix for the Azure Open Management Infrastructure (OMI) Elevation of Privilege Vulnerability and we recommend all users update the extension from the Marketplace on their Azure Stack Hub systems immediately. More information can be found here in CVE-2022-29149 - Security Update Guide - Microsoft - Azure Open Management Infrastructure (OMI) Elevation of Privilege Vulnerability.
   </description>

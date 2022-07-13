@@ -75,7 +75,7 @@
     <content:encoded></content:encoded>
   </item>
   <item>
-  <guid isPermaLink="false">update-vm-management-extension-fix-omi</guid>
+  <guid isPermaLink="false">update-azure-monitor-update-config-CVE-2022-29149</guid>
   <linkhttps://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-29149</link>
   <title>Update to Azure Monitor, Update and Configuration Management extension (CVE-2022-29149)</title>
   <description>Azure Monitor, Update and Configuration Management extension for Azure Stack Hub has been updated to the latest version. This version includes the fix for the Azure Open Management Infrastructure (OMI) Elevation of Privilege Vulnerability and we recommend all users update the extension from the Marketplace on their Azure Stack Hub systems immediately. More information can be found here in CVE-2022-29149 - Security Update Guide - Microsoft - Azure Open Management Infrastructure (OMI) Elevation of Privilege Vulnerability.

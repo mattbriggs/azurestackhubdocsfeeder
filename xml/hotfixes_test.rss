@@ -306,5 +306,26 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-161</guid>
             <pubDate>Tue, 24 May 2022 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2108.2.112</title>
+            <description>Fixes and performance enhancements.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-112</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-112</guid>
+            <pubDate>Mon, 27 Jun 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.147</title>
+            <description>Fixes and performance enhancements.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-147</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-147</guid>
+            <pubDate>Mon, 27 Jun 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.41.163</title>
+            <description>Fixes and performance enhancements.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-163</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-163</guid>
+            <pubDate>Mon, 27 Jun 2022 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

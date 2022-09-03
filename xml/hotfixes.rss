@@ -306,5 +306,47 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-161</guid>
             <pubDate>Tue, 24 May 2022 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2008.41.163</title>
+            <description>Fixes and performance enhancements.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-163</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-163</guid>
+            <pubDate>Wed, 27 Jul 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2206.1.24</title>
+            <description>Updated AMD GPU driver VM extension with new default driver path. Fixed an issue preventing health remediation of the Compute Host Agent service.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2206-1-24</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2206-1-24</guid>
+            <pubDate>Tue, 19 Jul 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2206.1.25</title>
+            <description>Fixed stability bugs in Azure Kubernetes Service, reliability issues in usage reporting, and Azure Stack update operations based on availability fixes for an internal settings service.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2206-1-25</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2206-1-25</guid>
+            <pubDate>Wed, 27 Jul 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.148</title>
+            <description>Optimized reading of disk IOPS values to support VMs with a large number of data disks. CRP will self-heal a VM with a SCSI disk that failed to attach instead of requiring operator removal of the disk from the VM. Fixed an issue in VM power-off operation in which CRP service always ignored the value of the non-graceful VM shutdown parameter. Fixed an issue that prevented health remediation of the Compute Host Agent service.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-148</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-148</guid>
+            <pubDate>Thu, 11 Aug 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2108.2.113</title>
+            <description>Fixed an issue in the Virtual Machine Scale Set portal creation experience that caused the addition of an existing load balancer to fail. Removed unsupported Reapply feature in the virtual machine portal experience. Fixed an issue in which the SRP container portal cannot display more than 1 page of containers. Fixed an issue with searching for a container by prefix in the SRP container portal. Improved blob metadata backup stability by skipping unnecessary dependency. Added support for Azure Stack Hub root certificate rotation. Fixed an issue that prevented guest operating system activation of Windows Server 2022. Fixed a null reference issue when calling the Compute Resource Provider API to power off a virtual machine without doing a shutdown.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-113</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-113</guid>
+            <pubDate>Wed, 17 Aug 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2206.2.38</title>
+            <description>Fixed an issue in the Virtual Machine Scale Set portal creation experience that caused the addition of an existing load balancer to fail. Removed unsupported Reapply feature in the virtual machine portal experience. Fixed an issue in which the infrastructure backup information displayed on the portal is not consistent with the alert. Improved blob metadata backup stability by skipping unnecessary dependency. Optimized reading of disk IOPS values to support VMs with a large number of data disks. CRP will self-heal a VM with a SCSI disk that failed to attach instead of requiring operator removal of the disk from the VM. Added support for Azure Stack Hub root certificate rotation. Fixed an issue that prevented guest operating system activation of Windows Server 2022. Fixed a null reference issue when calling the Compute Resource Provider API to power off a virtual machine without doing a shutdown.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2206-2-38</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2206-2-38</guid>
+            <pubDate>Wed, 17 Aug 2022 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

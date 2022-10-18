@@ -348,5 +348,12 @@
             <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2206-2-38</guid>
             <pubDate>Wed, 17 Aug 2022 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2102.31.152</title>
+            <description>Improved stability of SDN components. Improved the PnP device attached alert and moved it back to Preview.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2102-31-152?view=azs-2206</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2102-31-152?view=azs-2206</guid>
+            <pubDate>Tue, 18 Oct 2022 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

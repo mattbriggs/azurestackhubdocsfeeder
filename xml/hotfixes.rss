@@ -374,14 +374,14 @@
             <description>Improved the exception handling in Cluster Manager to avoid false memory exhaustion alerts. Added labels for on-demand log collection when &quot;infrastructure service unavailable&quot; alert is generated. Improvements to support tools. Fixed bug in storage table re-encryption, which was causing secret rotation to fail. Fixed an issue in which the BlobSasManager service might crash during VM deletion. Support for the .default scope has been added to AD FS. Now the client libraries supporting the OAUTH 2.0 flow can be used against AD FS environments.</description>
             <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2108-2-130</link>
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2108-2-130</guid>
-            <pubDate>Mon, 05 Dec 2022 00:00:00 -0000</pubDate>
+            <pubDate>Wed, 04 Jan 2023 00:00:00 -0000</pubDate>
         </item>
         <item>
             <title>Hotfix 1.2102.31.153</title>
             <description>Fixes rolled up from previous hotfix releases</description>
             <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2102-31-153</link>
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2102-31-153</guid>
-            <pubDate>Mon, 05 Dec 2022 00:00:00 -0000</pubDate>
+            <pubDate>Wed, 04 Jan 2023 00:00:00 -0000</pubDate>
         </item>
     </channel>
 </rss>

@@ -397,5 +397,12 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-2-60</guid>
             <pubDate>Wed, 26 Jul 2023 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2301.2.63</title>
+            <description>Upgraded portal to version 9.393.0. Fixed a persistent portal cache issue that impacted portal loading.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-2-63</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-2-63</guid>
+            <pubDate>Thu, 14 Sep 2023 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

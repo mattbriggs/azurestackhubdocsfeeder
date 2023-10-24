@@ -411,5 +411,19 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2206-2-76</guid>
             <pubDate>Thu, 21 Sep 2023 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2206.2.77</title>
+            <description>Fixed an issue in NRP in which duplicate IP addresses could be assigned to NICs in some scenarios.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2206-2-77</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2206-2-77</guid>
+            <pubDate>Thu, 19 Oct 2023 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2301.2.64</title>
+            <description>Fixed an issue in NRP in which duplicate IP addresses could be assigned to NICs in some scenarios.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-2-64</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-2-64</guid>
+            <pubDate>Thu, 19 Oct 2023 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

@@ -425,5 +425,12 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-2-64</guid>
             <pubDate>Thu, 19 Oct 2023 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2306.4.73</title>
+            <description>This hotfix includes Windows security updates applied to external-facing infrastructure VMs (internal infrastructure VMs that are capable of hosting endpoints external to Azure Stack Hub). The addition of these security updates can potentially increase the hotfix installation time. Fixed an issue in NRP in which duplicate IP addresses could be assigned to NICs in some scenarios.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-73</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-73</guid>
+            <pubDate>Sun, 24 Jan 0202 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

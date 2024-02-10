@@ -432,5 +432,19 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-73</guid>
             <pubDate>Wed, 24 Jan 2024 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2301.3.72</title>
+            <description>Portal framework accessibility fixes and other updates.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-3-72</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-3-72</guid>
+            <pubDate>Fri, 09 Feb 2024 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2306.4.74</title>
+            <description>Portal framework accessibility fixes and other updates.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-74</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-74</guid>
+            <pubDate>Fri, 09 Feb 2024 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

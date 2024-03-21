@@ -446,5 +446,12 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-74</guid>
             <pubDate>Fri, 09 Feb 2024 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2311.2.23</title>
+            <description>Fixed an issue that can lead to duplicate infrastructure VMs. Azure Stack Hub spoofing vulnerability CVE.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2311-2-23?view=azs-2311</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2311-2-23?view=azs-2311</guid>
+            <pubDate>Mon, 18 Mar 2024 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

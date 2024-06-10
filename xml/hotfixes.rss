@@ -453,5 +453,12 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2311-2-23?view=azs-2311</guid>
             <pubDate>Mon, 18 Mar 2024 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2311.3.44</title>
+            <description>Fixed XSS vulnerability on metadata endpoint.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2311-3-44?view=azs-2311</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2311-3-44?view=azs-2311</guid>
+            <pubDate>Thu, 06 Jun 2024 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

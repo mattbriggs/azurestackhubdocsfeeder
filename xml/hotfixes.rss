@@ -474,5 +474,26 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-97</guid>
             <pubDate>Tue, 11 Jun 2024 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2311.3.50</title>
+            <description>Fixed the CloudManifest feature to avoid adding non-self-signed certificates to the root store. Fixed an issue in the portal that might send a token to an untrusted domain when modifying custom dashboards.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2311-3-50</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2311-3-50</guid>
+            <pubDate>Thu, 18 Jul 2024 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2306.4.98</title>
+            <description>Fixed XSS vulnerability on metadata endpoint. Portal framework accessibility fixes and other updates. Azure Stack Hub spoofing vulnerability CVE. This hotfix includes Windows security updates applied to external-facing infrastructure VMs (internal infrastructure VMs that are capable of hosting endpoints external to Azure Stack Hub). The addition of these security updates can potentially increase the hotfix installation time. Fixed an issue in NRP in which duplicate IP addresses could be assigned to NICs in some scenarios.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-98</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-98</guid>
+            <pubDate>Thu, 18 Jul 2024 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2301.3.97</title>
+            <description>Fixed the CloudManifest feature to avoid adding non-self-signed certificates to the root store. Fixed an issue in the portal that might send a token to an untrusted domain when modifying custom dashboards.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-3-97</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2301-3-97</guid>
+            <pubDate>Thu, 18 Jul 2024 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

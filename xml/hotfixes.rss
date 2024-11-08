@@ -516,6 +516,7 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2306-4-101</guid>
             <pubDate>Wed, 14 Aug 2024 00:00:00 -0000</pubDate>
         </item>
+<<<<<<< HEAD
         <item>
             <title>Hotfix 1.2306.4.102</title>
             <description>Fixed an issue with DNS zone creation in SQL and MySQL resource providers.</description>
@@ -544,5 +545,7 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2406-1-16</guid>
             <pubDate>Thu, 24 Oct 2024 00:00:00 -0000</pubDate>
         </item>
+=======
+>>>>>>> 654977a829dc1680f09858a2bc458f76d5c7baa2
     </channel>
 </rss>

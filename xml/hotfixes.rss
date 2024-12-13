@@ -551,5 +551,12 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2408-1-38</guid>
             <pubDate>Tue, 19 Nov 2024 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2406.1.18</title>
+            <description>Fixed a bug in large L40S GPU VMs. Fixed a bug in JEA endpoint configuration. Fixed a bug in Test-AzureStack related to storage in all-flash systems.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2406-1-18</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2406-1-18</guid>
+            <pubDate>Thu, 12 Dec 2024 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>

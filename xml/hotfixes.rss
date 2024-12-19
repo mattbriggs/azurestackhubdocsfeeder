@@ -558,5 +558,12 @@
             <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2406-1-18</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 -0000</pubDate>
         </item>
+        <item>
+            <title>Hotfix 1.2408.1.39</title>
+            <description>Fixed an issue with the deployment of large GPU VMs (either Standard_NC48ads_A100_v4 or Standard_NC48ads_L40S_v4), in which the configured HighMemoryMappedIoGapSize exceeds the maximum 256 GB allowed by Hyper-V. Fixed an issue in which the time to update the host node was significantly extended.</description>
+            <link>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2408-1-39</link>
+            <guid>https://learn.microsoft.com/azure-stack/operator/hotfix-1-2408-1-39</guid>
+            <pubDate>Tue, 17 Dec 2024 00:00:00 -0000</pubDate>
+        </item>
     </channel>
 </rss>
